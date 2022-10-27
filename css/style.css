@@ -1,32 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
-/* cetear la pagina */
 * {
-    /*  margenes de la pagina pagina */
     margin: 0;
     padding: 0;
-
-    /*  margenes de la pagina pagina */
     box-sizing: border-box;
-    /*  fuente pagina */
     font-family: 'Inter', sans-serif;
 }
 
-/*  body */
 body {
+       
+}
+
+#page {
     position: absolute;
     width: 980px;
     left: calc(50% - 980px/2);
     top: 0px;
-    filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.15));
-    
-
+    box-shadow: 0px 0px 62px 2px #000000bf;
 }
-
-/*  logo */
 
 .logo {
     background-color: white;
-    /* Tamaño imagen*/
     width: 100%;
     display: flex;
     justify-content:flex-start;
@@ -34,7 +27,7 @@ body {
     filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.15));
 }
 
-.menu-principal{
+.principal_menu{
     width: 100%;
     background-color: #fc7323;
     filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.15));
@@ -52,21 +45,21 @@ body {
 }
 
 
-.menu-bar .enlaces ul li {
+.menu-bar .links ul li {
     display: inline-block;
     justify-content: center;
     align-items: center;
     padding: 0 auto;
     
 }
-.menu-bar .enlaces ul li a {
+.menu-bar .links ul li a {
     color: white;
     text-decoration: none;
     margin: 7px;
     font-weight: bold;
 }
 
-.contenido {
+.content {
     width: 100%;
     filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.15));
     display: grid;
@@ -86,7 +79,7 @@ body {
 }
 
 
-.titulo {
+.title {
     height: 25px;
     font-family: 'Inter';
     font-style: normal;
@@ -103,7 +96,7 @@ body {
     
 }
 
-.imagen  {
+.image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +118,7 @@ body {
     margin-top: 15px;
     
 }
-.img-uno img{
+.first-img img{
     width: 600px;
     height: 600px;
     left: calc(50% - 600px/2);
@@ -135,7 +128,7 @@ body {
     filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.1));
 }
 
-.img-dos img{
+.second-img img{
     width: 630px;
     height: 423px;
     left: calc(50% - 600px/2);
@@ -145,7 +138,7 @@ body {
     filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.1));
 }
 
-.img-tres img{
+.third-img img{
     width: 648px;
     height: 342px;
     left: calc(50% - 600px/2);
@@ -154,23 +147,22 @@ body {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
     filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.1));
 }
-.img-left {
+.img-right {
     width: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
     padding: 25px;
-    border: 1px red solid;
 }
-.contenido-blog {
+.blog-content {
     display: flex;
     align-items: center;
     text-align: center;
     flex-direction: column;
 
 }
-.director {    
+.manager {    
     height: 28px;
 
     text-align: center;
@@ -179,11 +171,11 @@ body {
     line-height: 14px;
 }
 
-.redes {
+.networks {
     width: 100%;
     display: inline-block;
 }
-.titulo-redes{
+.net-title {
     text-align: center;
 
     align-items: center;
@@ -195,7 +187,7 @@ body {
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
 }
-.lista_redes {
+.net-list {
     width: 100%;
     height: auto;
     display: flex;    
@@ -203,7 +195,7 @@ body {
     align-items: center;
     border-bottom: 3px solid #000;
 }
-.icon-redes {
+.net-icon {
     width: auto;
     justify-content: center;
     align-content: space-between;
@@ -211,7 +203,7 @@ body {
     list-style: none;
     top: 0
 }
-.titulo-servicios {
+.service-title {
     text-align: center;
 
     align-items: center;
@@ -222,7 +214,7 @@ body {
     border-bottom: 3px solid #000;
 }
 
-.lista_servicios {
+.service-list {
     display: flex;
     align-content: space-around;
     justify-content: center;
@@ -233,7 +225,7 @@ body {
     
 }
 
-.lista_servicios li {
+.service-list li {
     height: auto;
     border: 1px white solid;
 
